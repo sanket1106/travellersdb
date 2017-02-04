@@ -1,0 +1,2 @@
+# travellersdb
+Database scripts, dumps
