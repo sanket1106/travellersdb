@@ -1,0 +1,62 @@
+Models :
+
+User : {
+	"_id" : "",
+	"username" : "",
+	"emailId" : "",
+	"firstName" : "",
+	"lastName" : "",
+	"userType" : "",
+	"isActive" : "true",
+	"mobileNo" : "",
+	"landlineNo" : ""
+}
+
+Provider : {
+	"_id" : "",
+	"username" : "",
+	"emailId" : "",
+	"DisplayName" : "",
+	"firstName" : "",
+	"lastName" : "",
+	"category" : "",
+	"providerType" : "Travel Agency / Hotel / Transport / Resort",
+	"isActive" : "true",
+	"mobileNo" : "",
+	"landlineNo" : ""
+}
+
+CityCountryMaster : {
+	"_id" : 1252758,
+    "localeCode" : "en",
+    "continentCode" : "AS",
+    "continentName" : "Asia",
+    "countryIsoCode" : "IN",
+    "countryName" : "India",
+    "subdivision1IsoCode" : "KA",
+    "subdivision1Name" : "Karnataka",
+    "cityName" : "Yelahanka",
+    "timeZone" : "Asia/Kolkata"	
+}
+
+QuoteRequest : {
+	"_id" : "",
+	"userId" : "",
+	"emailId" : "",
+	"contactNo" : "",
+	"regionId" : "",
+	"region" : "",
+	"noOfDays" : 6,
+	"noOfNights" : 5,
+	"startDate" : "",
+	"endDate" : "",
+	"quotesFinalDate" : ""
+}
+
+
+QuotesResponse : {
+	"_id" : "",
+	"quoteRequestId" : "",
+	"quotes" : "",
+	"providedBy" : ""
+}
